@@ -1,35 +1,76 @@
-# Python
+# =========================
+# 🐍 Python
+# =========================
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
+*.so
 
-# Virtual env
+# virtual environment
 .venv/
 venv/
 env/
+ENV/
 
-# OS / Editor
-.DS_Store
-Thumbs.db
+# =========================
+# 🧪 Testing / coverage
+# =========================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# =========================
+# 📦 Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# 🧠 IDE / Editor
+# =========================
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Logs
-*.log
+# =========================
+# 🪟 OS files
+# =========================
+.DS_Store
+Thumbs.db
 
-# Local config / secrets
+# =========================
+# 🔐 Environment variables
+# =========================
 .env
 .env.*
+*.env
 
-# Databases / local data
+# =========================
+# 📦 Archives (你刚好有 zip！)
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# =========================
+# 🗄️ Database
+# =========================
 *.db
 *.sqlite3
 
-# Build / cache
-dist/
-build/
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.cache/·
+# =========================
+# 🧾 Logs
+# =========================
+*.log
+
+# =========================
+# 🚀 FastAPI / runtime
+# =========================
+*.pid
+*.out
